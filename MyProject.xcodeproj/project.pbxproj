@@ -25,6 +25,11 @@
 		AB3F54092C22B8D600CC5279 /* AddDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3F54082C22B8D600CC5279 /* AddDiaryViewController.swift */; };
 		AB3F540B2C22B8DE00CC5279 /* DiaryEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3F540A2C22B8DE00CC5279 /* DiaryEntry.swift */; };
 		AB3F540D2C22B8E600CC5279 /* DiaryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3F540C2C22B8E500CC5279 /* DiaryDetailViewController.swift */; };
+		AB3F540F2C22CA2400CC5279 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB3F540E2C22CA2400CC5279 /* GoogleService-Info-2.plist */; };
+		AB3F54122C22CB4300CC5279 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = AB3F54112C22CB4300CC5279 /* FirebaseFirestore */; };
+		AB3F54142C22CB5D00CC5279 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = AB3F54132C22CB5D00CC5279 /* FirebaseStorage */; };
+		AB3F54162C22CF6000CC5279 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3F54152C22CF5F00CC5279 /* Database.swift */; };
+		AB3F54182C22D3F200CC5279 /* DbFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3F54172C22D3F200CC5279 /* DbFirebase.swift */; };
 		ABFBE90D2C21634F007CD753 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFBE90C2C21634F007CD753 /* DetailViewController.swift */; };
 		ABFBE90F2C216355007CD753 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFBE90E2C216355007CD753 /* AddViewController.swift */; };
 		ABFBE9112C21635D007CD753 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFBE9102C21635D007CD753 /* TableViewController.swift */; };
@@ -52,6 +57,9 @@
 		AB3F54082C22B8D600CC5279 /* AddDiaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddDiaryViewController.swift; path = ../../Diary/Diary/AddDiaryViewController.swift; sourceTree = "<group>"; };
 		AB3F540A2C22B8DE00CC5279 /* DiaryEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiaryEntry.swift; path = ../../Diary/Diary/DiaryEntry.swift; sourceTree = "<group>"; };
 		AB3F540C2C22B8E500CC5279 /* DiaryDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiaryDetailViewController.swift; path = ../../Diary/Diary/DiaryDetailViewController.swift; sourceTree = "<group>"; };
+		AB3F540E2C22CA2400CC5279 /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info-2.plist"; path = "../../../Downloads/GoogleService-Info-2.plist"; sourceTree = "<group>"; };
+		AB3F54152C22CF5F00CC5279 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Database.swift; path = ../../CityFirebase/CityFirebase/Database.swift; sourceTree = "<group>"; };
+		AB3F54172C22D3F200CC5279 /* DbFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DbFirebase.swift; sourceTree = "<group>"; };
 		ABFBE90C2C21634F007CD753 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = ../../Table/Table/DetailViewController.swift; sourceTree = "<group>"; };
 		ABFBE90E2C216355007CD753 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddViewController.swift; path = ../../Table/Table/AddViewController.swift; sourceTree = "<group>"; };
 		ABFBE9102C21635D007CD753 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = ../../Table/Table/TableViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +72,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				184A48F0578E3ACA285D3C10 /* Pods_MyProject.framework in Frameworks */,
+				AB3F54122C22CB4300CC5279 /* FirebaseFirestore in Frameworks */,
+				AB3F54142C22CB5D00CC5279 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +116,7 @@
 				AB234A4F2C200DB300DE795D /* Assets.xcassets */,
 				AB234A512C200DB300DE795D /* LaunchScreen.storyboard */,
 				AB234A542C200DB300DE795D /* Info.plist */,
+				AB3F540E2C22CA2400CC5279 /* GoogleService-Info-2.plist */,
 				AB234A5A2C20127500DE795D /* ViewController2.swift */,
 				ABFBE90C2C21634F007CD753 /* DetailViewController.swift */,
 				ABFBE90E2C216355007CD753 /* AddViewController.swift */,
@@ -114,6 +125,8 @@
 				AB3F54082C22B8D600CC5279 /* AddDiaryViewController.swift */,
 				AB3F540A2C22B8DE00CC5279 /* DiaryEntry.swift */,
 				AB3F540C2C22B8E500CC5279 /* DiaryDetailViewController.swift */,
+				AB3F54152C22CF5F00CC5279 /* Database.swift */,
+				AB3F54172C22D3F200CC5279 /* DbFirebase.swift */,
 				AB3F53F82C229BF100CC5279 /* black check.png */,
 				AB3F53FA2C229BF800CC5279 /* red check.png */,
 				AB3F53FC2C229D4100CC5279 /* airplane.png */,
@@ -151,6 +164,10 @@
 			dependencies = (
 			);
 			name = MyProject;
+			packageProductDependencies = (
+				AB3F54112C22CB4300CC5279 /* FirebaseFirestore */,
+				AB3F54132C22CB5D00CC5279 /* FirebaseStorage */,
+			);
 			productName = MyProject;
 			productReference = AB234A432C200DAF00DE795D /* MyProject.app */;
 			productType = "com.apple.product-type.application";
@@ -179,6 +196,9 @@
 				Base,
 			);
 			mainGroup = AB234A3A2C200DAF00DE795D;
+			packageReferences = (
+				AB3F54102C22CAF400CC5279 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = AB234A442C200DAF00DE795D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -193,6 +213,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB3F540F2C22CA2400CC5279 /* GoogleService-Info-2.plist in Resources */,
 				AB3F54012C229D6700CC5279 /* studying.png in Resources */,
 				AB3F54032C229E0F00CC5279 /* friends.png in Resources */,
 				AB3F53FF2C229D4D00CC5279 /* buying.png in Resources */,
@@ -255,11 +276,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB3F540D2C22B8E600CC5279 /* DiaryDetailViewController.swift in Sources */,
+				AB3F54182C22D3F200CC5279 /* DbFirebase.swift in Sources */,
 				AB234A4B2C200DAF00DE795D /* ViewController.swift in Sources */,
 				AB3F54092C22B8D600CC5279 /* AddDiaryViewController.swift in Sources */,
 				AB3F54072C22B8CE00CC5279 /* DiaryTableViewController.swift in Sources */,
 				ABFBE9112C21635D007CD753 /* TableViewController.swift in Sources */,
 				AB234A5B2C20127500DE795D /* ViewController2.swift in Sources */,
+				AB3F54162C22CF6000CC5279 /* Database.swift in Sources */,
 				ABFBE90F2C216355007CD753 /* AddViewController.swift in Sources */,
 				AB3F540B2C22B8DE00CC5279 /* DiaryEntry.swift in Sources */,
 				ABFBE90D2C21634F007CD753 /* DetailViewController.swift in Sources */,
@@ -495,6 +518,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AB3F54102C22CAF400CC5279 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.28.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AB3F54112C22CB4300CC5279 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB3F54102C22CAF400CC5279 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		AB3F54132C22CB5D00CC5279 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB3F54102C22CAF400CC5279 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AB234A3B2C200DAF00DE795D /* Project object */;
 }

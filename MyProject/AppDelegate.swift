@@ -8,6 +8,9 @@
 import UIKit
 import GoogleMaps
 import GooglePlaces
+import Firebase
+import FirebaseFirestore
+import FirebaseStorage
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +20,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         GMSServices.provideAPIKey("AIzaSyAUjFOO3b2JNaZ4M8hQP0Ke_xtbzMgK-W8")
         GMSPlacesClient.provideAPIKey("AIzaSyAUjFOO3b2JNaZ4M8hQP0Ke_xtbzMgK-W8")
         // Override point for customization after application launch.
+        
+        // firebase 연결
+        //FirebaseApp.configure()
+        
+        // GoogleService-Info-2.plist 파일 경로 지정
+        if let filePath = Bundle.main.path(forResource: "GoogleService-Info-2", ofType: "plist"),
+           let options = FirebaseOptions(contentsOfFile: filePath) {
+            FirebaseApp.configure(options: options)
+        } else {
+            print("Failed to load GoogleService-Info-2.plist")
+        }
+        
+        // firestore에 저장
+        Firestore.firestore().collection("test").document("name").setData(["name": "Maria Kim"])
+                                                                           
         return true
     }
 
@@ -33,6 +51,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
+    
 }
 
 
