@@ -30,6 +30,8 @@
 		AB3F54142C22CB5D00CC5279 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = AB3F54132C22CB5D00CC5279 /* FirebaseStorage */; };
 		AB3F54162C22CF6000CC5279 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3F54152C22CF5F00CC5279 /* Database.swift */; };
 		AB3F54182C22D3F200CC5279 /* DbFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3F54172C22D3F200CC5279 /* DbFirebase.swift */; };
+		AB3F541A2C22E33C00CC5279 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = AB3F54192C22E33C00CC5279 /* image1.png */; };
+		AB3F541C2C22E56800CC5279 /* smile.png in Resources */ = {isa = PBXBuildFile; fileRef = AB3F541B2C22E56800CC5279 /* smile.png */; };
 		ABFBE90D2C21634F007CD753 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFBE90C2C21634F007CD753 /* DetailViewController.swift */; };
 		ABFBE90F2C216355007CD753 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFBE90E2C216355007CD753 /* AddViewController.swift */; };
 		ABFBE9112C21635D007CD753 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFBE9102C21635D007CD753 /* TableViewController.swift */; };
@@ -60,6 +62,8 @@
 		AB3F540E2C22CA2400CC5279 /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info-2.plist"; path = "../../../Downloads/GoogleService-Info-2.plist"; sourceTree = "<group>"; };
 		AB3F54152C22CF5F00CC5279 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Database.swift; path = ../../CityFirebase/CityFirebase/Database.swift; sourceTree = "<group>"; };
 		AB3F54172C22D3F200CC5279 /* DbFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DbFirebase.swift; sourceTree = "<group>"; };
+		AB3F54192C22E33C00CC5279 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image1.png; path = ../../image1.png; sourceTree = "<group>"; };
+		AB3F541B2C22E56800CC5279 /* smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smile.png; path = ../../../Downloads/smile.png; sourceTree = "<group>"; };
 		ABFBE90C2C21634F007CD753 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = ../../Table/Table/DetailViewController.swift; sourceTree = "<group>"; };
 		ABFBE90E2C216355007CD753 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddViewController.swift; path = ../../Table/Table/AddViewController.swift; sourceTree = "<group>"; };
 		ABFBE9102C21635D007CD753 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = ../../Table/Table/TableViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +131,8 @@
 				AB3F540C2C22B8E500CC5279 /* DiaryDetailViewController.swift */,
 				AB3F54152C22CF5F00CC5279 /* Database.swift */,
 				AB3F54172C22D3F200CC5279 /* DbFirebase.swift */,
+				AB3F541B2C22E56800CC5279 /* smile.png */,
+				AB3F54192C22E33C00CC5279 /* image1.png */,
 				AB3F53F82C229BF100CC5279 /* black check.png */,
 				AB3F53FA2C229BF800CC5279 /* red check.png */,
 				AB3F53FC2C229D4100CC5279 /* airplane.png */,
@@ -218,10 +224,12 @@
 				AB3F54032C229E0F00CC5279 /* friends.png in Resources */,
 				AB3F53FF2C229D4D00CC5279 /* buying.png in Resources */,
 				AB3F53FB2C229BF800CC5279 /* red check.png in Resources */,
+				AB3F541A2C22E33C00CC5279 /* image1.png in Resources */,
 				AB3F53F92C229BF100CC5279 /* black check.png in Resources */,
 				AB3F53FD2C229D4100CC5279 /* airplane.png in Resources */,
 				AB234A502C200DB300DE795D /* Assets.xcassets in Resources */,
 				AB234A532C200DB300DE795D /* Base in Resources */,
+				AB3F541C2C22E56800CC5279 /* smile.png in Resources */,
 				AB234A4E2C200DAF00DE795D /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

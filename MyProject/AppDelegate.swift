@@ -34,6 +34,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // firestore에 저장
         Firestore.firestore().collection("test").document("name").setData(["name": "Maria Kim"])
+        
+        Thread.sleep(forTimeInterval: 2.0)
                                                                            
         return true
     }
